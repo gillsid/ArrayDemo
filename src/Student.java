@@ -1,4 +1,4 @@
-/*
+o/*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
@@ -7,7 +7,7 @@
  * this has been modified by sidhak on 30 jan at 11:53
  
  * @author gills
- 
+ * hello there 
  */
 public class Student {
     private int sid ;
