@@ -4,12 +4,15 @@
  */
 
 /**
- * 
+ * this has been modified by sidhak on 30 jan at 11:53
+ 
  * @author gills
+ 
  */
 public class Student {
     private int sid ;
     private String name;
+    private String Address;
 
     public Student(int sid, String name) {
         this.sid = sid;
@@ -34,7 +37,14 @@ public class Student {
     }
     
     
-  
+   public String getAddress() {
+        return Address;
+    }
+
+    
+    public void setAddress(String Address) {
+        this.Address = Address;
+    }
     
 }
 
