@@ -15,7 +15,15 @@ public class PartTimeStudent extends Student{
     
     public PartTimeStudent(int numOfCourses, int sid, String sname) {
         super(sid, sname);
+        this.numOfCourses = numOfCourses;}
+
+
+
+    public int getNumOfCourses() {
+        return numOfCourses;
+    }
+
+    public void setNumOfCourses(int numOfCourses) {
         this.numOfCourses = numOfCourses;
-    }
-    
+    }
 }
