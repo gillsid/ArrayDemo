@@ -33,6 +33,20 @@ public class Student {
     public void setName(String name) {
         this.name = name;
     }
+
+    /**
+     * @return the Address
+     */
+    public String getAddress() {
+        return Address;
+    }
+
+    /**
+     * @param Address the Address to set
+     */
+    public void setAddress(String Address) {
+        this.Address = Address;
+    }
     
     
   
